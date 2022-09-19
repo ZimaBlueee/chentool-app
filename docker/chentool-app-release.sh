@@ -15,11 +15,11 @@ sleep 1
 cd docker
 
 echo '==============开始打包镜像================'
-docker-compose build
+docker compose build
 echo '==============镜像打包成功================'
 
 echo '==============开始部署容器================'
-docker-compose up -d
+docker compose up -d
 echo '==============容器部署成功================'
 
 echo '==============前端发布成功!================'
