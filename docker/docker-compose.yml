@@ -10,7 +10,7 @@ services:
     environment:
       TZ: Asia/Shanghai
     ports:
-      - "80:3000"                      # 映射端口
+      - "3000:3000"                      # 映射端口
 #      - "443:443"                      # 映射端口
 #    volumes:
 #      - /data/nginx/cert:/etc/nginx/cert     # 证书映射
