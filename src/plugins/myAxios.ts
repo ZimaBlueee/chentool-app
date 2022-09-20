@@ -5,7 +5,7 @@ const myAxios = axios.create({
   baseURL:
     // @ts-ignore
     process.env.NODE_ENV === "production"
-      ? "https://chentool/api"
+      ? "https://localhost/api"
       : "http://localhost:8088",
 });
 
