@@ -5,8 +5,8 @@ const myAxios = axios.create({
   baseURL:
     // @ts-ignore
     process.env.NODE_ENV === "production"
-      ? "http://localhost/api"
-      : "http://localhost:8088",
+      ? "http://192.168.1.106/api"
+      : "http://192.168.1.106:8089",
 });
 
 myAxios.defaults.withCredentials = true;
