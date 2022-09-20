@@ -12,7 +12,7 @@ echo '==============拉取最新代码成功=========='
 
 sleep 1
 
-cd docker
+#cd docker
 
 echo '==============开始打包镜像================'
 docker compose build
