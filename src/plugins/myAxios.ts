@@ -5,7 +5,7 @@ const myAxios = axios.create({
   baseURL:
     // @ts-ignore
     process.env.NODE_ENV === "production"
-      ? "http://192.168.1.107/api"
+      ? "http://124.222.202.111/api"
       : "http://192.168.1.107:8089",
 });
 
