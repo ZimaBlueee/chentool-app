@@ -45,7 +45,7 @@ const commandList: CommandType[] = [
   historyCommand,
   // fanyiCommand,
   helpCommand,
-  infoCommand,
+  // infoCommand,
   pingCommand,
   // musicCommand,
   // ddosCommand,
