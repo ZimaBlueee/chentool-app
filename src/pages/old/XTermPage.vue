@@ -42,7 +42,7 @@ const initXTerm = () => {
     term.write(promptWords);
   };
 
-  term.writeln("Welcome to chentool，coolest browser index for geeks!");
+  // term.writeln("Welcome to chentool，coolest browser index for geeks!");
   term.writeln("Author ZimaBlue: https://github.com/ZimaBlue1995");
   term.prompt();
 

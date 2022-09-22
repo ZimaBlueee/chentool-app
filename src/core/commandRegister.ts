@@ -52,7 +52,7 @@ const commandList: CommandType[] = [
   moyuCommand,
   ikunCommand,
   // ikuntestCommand,
-  welcomeCommand,
+  // welcomeCommand,
   // backgroundCommand,
   resetCommand,
   // hintCommand,

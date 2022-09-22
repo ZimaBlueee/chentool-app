@@ -404,14 +404,15 @@ onMounted(() => {
       terminal.writeTextOutput(welcomeText);
     });
   } else {
-    terminal.writeTextOutput(
-      `Welcome to chentool, coolest browser index for geeks!` +
-        `<a href="//github.com/ZimaBlue1995/chentool-app.git" target='_blank'> GitHub Open Source</a>`
-    );
-    terminal.writeTextOutput(
-      `Author <a href="//github.com/ZimaBlue1995" target="_blank">ZimaBlue</a>` +
-        `: please input 'help' to enjoy`
-    );
+    // terminal.writeTextOutput(
+    //   `Welcome to chentool, coolest browser index for geeks!` +
+    //     `<a href="//github.com/ZimaBlue1995/chentool-app.git" target='_blank'> GitHub Open Source</a>`
+    // );
+    // terminal.writeTextOutput(
+    //   `Author <a href="//github.com/ZimaBlue1995" target="_blank">ZimaBlue</a>` +
+    //     `: please input 'help' to enjoy`
+    // );
+    terminal.writeTextOutput(`Welcome` + `, please input 'help' to enjoy`);
     terminal.writeTextOutput("<br/>");
   }
 });
