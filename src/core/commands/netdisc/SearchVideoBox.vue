@@ -1,9 +1,5 @@
 <template>
-  <div>
-    <!--<div v-for="(pan, index) in panList" :key="index">-->
-    <!--  {{ pan.question }} | {{ pan.answer }}-->
-    <!--</div>-->
-
+  <div style="width: 100%">
     <a-list
       size="small"
       :split="false"
