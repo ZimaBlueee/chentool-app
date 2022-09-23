@@ -1,5 +1,5 @@
 <template>
-  <div style="width: 100%">
+  <div>
     <a-list
       size="small"
       :split="false"
@@ -18,7 +18,7 @@
             </template>
             <template #description>
               <span
-                style="color: #b598a1"
+                style="color: #b598a1; word-wrap: break-word"
                 v-html="smartText(item.answer)"
               ></span>
             </template>
