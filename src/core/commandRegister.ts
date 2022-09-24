@@ -50,7 +50,7 @@ const commandList: CommandType[] = [
   // musicCommand,
   // ddosCommand,
   moyuCommand,
-  ikunCommand,
+  // ikunCommand,
   // ikuntestCommand,
   // welcomeCommand,
   // backgroundCommand,
