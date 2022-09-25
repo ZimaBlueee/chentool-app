@@ -2,7 +2,7 @@
 
 echo '==============开始部署前端=============='
 
-cd /home/zima/project/chentool/chentool-app || exit 1
+cd /usr/local/src/chentool-app || exit 1
 
 #git checkout master
 #git checkout .
