@@ -5,7 +5,7 @@ const myAxios = axios.create({
   baseURL:
     // @ts-ignore
     process.env.NODE_ENV === "production"
-      ? "http://chenjian.xyz/api"
+      ? "http://index.chenjian.xyz/api"
       : "http://localhost:8088",
 });
 
