@@ -12,7 +12,7 @@ FROM nginx:latest
 
 COPY --from=build-stage /app/dist /usr/share/nginx/html/chentool
 
-COPY ./docker/nginx.conf /etc/nginx/conf.d/nginx.conf
+COPY ./docker/chentool.conf /etc/nginx/conf.d/
 
 EXPOSE 8083
 
