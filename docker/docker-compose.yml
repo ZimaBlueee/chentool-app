@@ -1,4 +1,5 @@
-version: '3'
+version: '3.9'
+name: chentool-app
 services:
   chentool-app: # 前端node容器(运行nginx中的Vue项目)
     image: chentool-app
