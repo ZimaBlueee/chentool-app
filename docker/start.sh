@@ -24,4 +24,3 @@ docker compose -f $COMPOSE_FILE down || exit 1
 # 启动新的容器
 echo "Starting new containers..."
 docker compose -f $COMPOSE_FILE up -d || exit 1
-
