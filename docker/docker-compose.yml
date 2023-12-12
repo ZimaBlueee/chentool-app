@@ -16,3 +16,9 @@ services:
       - "/usr/share/zoneinfo/Asia/Shanghai:/etc/localtime:ro"
       - "/var/log/project/chentool-app:/var/log/nginx"
 #      - "/usr/local/cert/index:/etc/nginx/cert"
+    networks:
+      - chentool-network
+
+networks:
+  chentool-network:
+    external: true
