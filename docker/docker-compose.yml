@@ -17,8 +17,8 @@ services:
       - "/var/log/project/chentool-app:/var/log/nginx"
 #      - "/usr/local/cert/index:/etc/nginx/cert"
     networks:
-      - chentool-network
+      - chentool_chentool-network
 
 networks:
-  chentool-network:
+  chentool_chentool-network:
     external: true
