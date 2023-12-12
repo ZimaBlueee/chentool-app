@@ -14,6 +14,8 @@ COPY --from=build-stage /app/dist /usr/share/nginx/html/chentool
 
 COPY ./docker/chentool.conf /etc/nginx/conf.d/
 
+COPY ./docker/font/simhei.ttf /usr/share/fonts/
+
 EXPOSE 8083
 
 CMD ["nginx", "-g", "daemon off;"]
